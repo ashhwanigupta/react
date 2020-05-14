@@ -7,6 +7,29 @@
   pointer-events: none;
 }
 
+span {
+  display: inline-block;
+  background-color: antiquewhite;
+  padding: 10px;
+  margin: 5px;
+}
+
+
+.list-wrapper {
+  border: 1px solid #ccc;
+  margin: auto;
+  width: 550px;
+  margin-top: 10px;
+}
+
+.search-row{
+  max-width: 150px;
+  background-color:aliceblue;
+  padding: 3px;
+  margin: auto;
+  margin-top: 8px;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
